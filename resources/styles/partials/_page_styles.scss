@@ -1,0 +1,115 @@
+.header{
+    font-family: "nunito sans";
+    font-size: 1.25rem;
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: nowrap;
+    padding: 1.7rem;
+}
+h1,h2{
+    font-weight: normal;
+}
+.main_content{
+    font-family: "DM Serif Display";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+.maintext{
+    font-size: 7rem;
+    font-style: italic;
+    text-align: center;
+    height: 3rem;
+    animation-delay: 0.75s;
+}
+.subtext{
+    font-size: 2rem;
+    text-align: center;
+    animation-delay: 1.25s;
+}
+.main_content_alt2,
+.maintextalt{
+    font-family: "DM Serif Display";
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 5rem;
+    animation-delay: 0.75s;
+    height: 2.5rem;
+}
+.sub_content{
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 5rem;
+    animation-delay: 1s;
+    position: relative;
+}
+.email_text{
+    animation-delay: 0.5s;
+}
+.social_text{
+    animation-delay: 1s;
+}
+.smalltext{
+    font-size: 1.25rem;
+    font-family: "nunito sans";
+    animation-delay: 0.75s;
+}
+.social_icons{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    text-align: center;
+    animation-delay: 1.25s;
+}
+.icons{
+    color: var(--text-color);
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+.icons:hover{
+    transform: scale(1.07);
+    border-bottom: rgb(0, 0, 0, 0);
+}
+.orbs{
+    animation-duration: 1s;
+}
+.circles{
+    height: 20rem;
+    width: 20rem;
+    background-color: var(--text-color);
+    border-radius: 50%;
+    display: inline-block;
+    margin-inline: -10rem;
+    z-index: -1;
+    position: relative;
+    box-shadow: 0 0 5rem 0 #000000 0.5;
+}
+.circles-image{
+    height: 20rem;
+    width: 20rem;
+    background-image: url("images/image.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0 0 5rem 0 #000000 0.5;
+}
+.about_hello{
+    font-style: italic;
+    height: 1.5rem;
+    animation-delay: 0.5s;
+}
+.about_hello_2{
+    font-size: 2rem;
+    font-style: italic;
+    animation-delay: 0.75s;
+}
+.about_hello_3{
+    font-family: "nunito sans";
+    font-style: italic;
+    font-size: 1.25rem;
+    animation-delay: 1s;
+}
