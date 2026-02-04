@@ -35,7 +35,7 @@
   position: relative;
   width: 100%;
   height: 50vh;
-  background: url("images/wip.jpg") center/cover no-repeat;
+  background: url("images/graphic-design-banner.png") center/cover no-repeat;
 }
 
 /* Tint overlay */
@@ -51,6 +51,37 @@
 
 /* Text on top */
 .design2_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--background-color);
+  font-size: 4rem;
+  z-index: 1;
+  text-align: center;
+}
+
+
+.design3 {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  background: url("images/photography-banner.jpg") center/cover no-repeat;
+}
+
+/* Tint overlay */
+.design3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(from var(--text-color) r g b / 0.85);
+}
+
+/* Text on top */
+.design3_text {
   position: absolute;
   top: 50%;
   left: 50%;

@@ -7,6 +7,9 @@
 @use "partials/page_styles";
 @use "partials/portfolio";
 @use "partials/youtube-design";
+@use "partials/graphic-design";
+@use "partials/photography";
+
 // Color Theme Variables
 :root, html[data-theme='light'] {
     --background-color: rgb(255, 253, 250);
